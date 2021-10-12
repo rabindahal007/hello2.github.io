@@ -1,0 +1,75 @@
+<html>
+<html>
+<head>
+	<title></title>
+</head>
+<style type="text/css">
+	.one{
+		width:200px;
+		height:100px;
+		background-color: red;
+        border: 10px;
+        margin: -1%;
+        transition: 2s;
+	}
+	.one:hover{
+		width: 300px;
+	}
+	.two{
+		width: 100px;
+		height: 100px;
+		border-radius:50%;
+		background-color:blue;
+		margin-left: 20%;
+		margin-top: -10%;
+		animation-name: example;
+		animation-duration:3s;
+		position: relative;
+		animation-delay: 1.5s;
+	}
+	.three{
+		width:200px;
+		height:100px;
+		background-color: red;
+        border: 10px;
+        margin-left: 80%;
+	}
+	.four{
+
+		width:200px;
+		height:100px;
+		background-color: red;
+        border: 10px;
+        padding: 10px;
+        margin-top: 10%;
+        margin-left: -1%;
+	}
+	.five{
+		width:200px;
+		height:100px;
+		background-color: green;
+        border: 10px;
+        padding: 10px;
+        margin-left: 35%;
+        margin-top: 15%;
+        text-align: center;
+        display: inline-block;
+        position: absolute;
+	}
+	@keyframes example{
+		 0% {left:0px; top:0px;}
+		 25% {left:500px; top: 80px;}
+		 75% {left:5px; top: 290px;}
+		 100% { left:250; top: 600px; }
+
+	}
+
+</style>
+<body bgcolor="black">
+	<div class="one"></div>
+	<div class="two"></div>
+	<div class="three"></div>
+	<div class="four"></div>
+	<div class="five"><font size="100px" >Goal</font></div>
+</body>
+</html>
